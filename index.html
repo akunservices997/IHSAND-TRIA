@@ -64,7 +64,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="py-4">
 <div class="lead" data-aos="fade-down">Undangan Pernikahan</div>
 <h1 class data-aos="zoom-in" style="font-size: 3.5rem;">Ihsan &amp; Tria</h1>
-<h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
+<div >Kepada <span>Bapak/Ibu/Saudara/i, </span></div>
 <div class="h5 my-4 font-weight-bold" data-aos="fade-up" data-aos-delay="300" style="letter-spacing: 4px;">12 . 12 . 2023</div>
 </div>
 </div>
@@ -668,7 +668,7 @@ TRISAND - WEDDING</a>
     const urlParams = new URLSearchParams(window.location.search);
     const nama = urlParams.get('n') || '';
     const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
-    const namaContainer = document.querySelector(' h4 span');
+    const namaContainer = document.querySelector(' div span');
     namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
 
     document.querySelector('#nama').value = nama;
