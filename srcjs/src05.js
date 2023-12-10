@@ -12,6 +12,6 @@ $(function () {
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'srcjs/srcgoogleanalytics.js', 'ga');
     ga('create', 'UA-109046254-1', window.location.hostname);
-    ga('set', 'dimension1', window.TENANT_ID);
+    ga('set', 'dimension1', window.TRISAND_UD);
     ga('send', 'pageview');
 })
