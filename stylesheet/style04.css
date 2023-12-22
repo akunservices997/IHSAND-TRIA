@@ -1,0 +1,6 @@
+.trisand-tracker{display:block !important;visibility:visible !important;background:#fff;font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}.trisand-tracker a{display:block !important;visibility:visible !important;background:#fafafc;color:#000;font-size:12px;padding:10px 0;text-align:center;line-height:20px;height:40px;opacity:0.65}
+.trisand-tracker a:hover,.trisand-tracker a:focus,.trisand-tracker a:active{opacity:1;text-decoration:none}
+.trisand-tracker img{height:20px;padding:0;margin:0 0 4px 5px}
+
+h4 a:hover {color: red;}
+h4 li{display: inline; margin: 0.5rem;}
